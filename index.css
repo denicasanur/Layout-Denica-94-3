@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff8ef;
+    font-family: 'Comfortaa', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #a9d6ee;
+    padding: 20px;
+    text-align: center;
+    color: #9b5470;
+    border-bottom: 3px solid #ffe39a;
+    box-shadow: 0 4px 12px rgba(190, 86, 116, 0.18);
+}
+
+.header h1 {
+    margin: 0;
+    width: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffe9a8;
+    border-bottom: 3px solid #f6adc1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.topnav a {
+    display: block;
+    color: #a75d78;
+    font-family: 'Comfortaa', system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.2s ease;
+}
+
+.topnav a:hover,
+.topnav a.active {
+    background-color: #f6adc1;
+    color: #fffdf0;
+    border-bottom-color: #89c9e8;
+}
+
+.footer {
+    background: #ff94a6;
+    padding: 18px;
+    margin-top: 24px;
+    text-align: center;
+    color: #ffffff;
+    border-top: 2px solid #ff8095;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-family: "singsong", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+body {
+    margin: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body{
+    background-image:url(pink.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    background-color: aliceblue;
+    color: hotpink;
+    text-align: center;
+}
+h1{
+    background-color: aliceblue;
+    color: hotpink;
+    text-align: center;
+}
+.header h1 {
+    background: transparent;
+    color: #8d3150;
+}
+div.biodata{
+margin: 30px auto;
+width: 70%;
+background-color: aliceblue;
+color: hotpink;
+padding:30px;
+border-radius: 12px;
+}
+
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid hotpink ;
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+.foto img.bottom{
+    opacity: 0; /*nilai diturunkan menjadi 0*/
+    z-index: 1; /*nilai diturunakn menjadi 1 */
+}
+.foto:hover img.bottom{
+    opacity: 1; /* nilai dinaikan menjadi 1*/
+    transform: scale(1.1)
+}
+
+
+.makanan{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+div.pasta{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+    text-align: center;
+}
+
+div.Sushi{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+     text-align: center;
+}
+
+div.Teriyaki {
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+     text-align: center;
+}
+
+div.Macaroon{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+     text-align: center;
+}
+
+.Jellycat{
+    background-color: aliceblue;
+    color:hotpink;
+    width: 69%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.Jellycats{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+     text-align: center;
+}
+
+div.coconut{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.giraffe{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.pink-bear{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.bunny{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.Brands{
+    background-color: aliceblue;
+    color:hotpink;
+    width: 69%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.brand{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+     text-align: center;
+}
+
+div.jellycat{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.brandy{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.cotton-on{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.coach{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.Movies{
+    background-color: aliceblue;
+    color:hotpink;
+    width: 69%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+     text-align: center;
+}
+
+div.Mean-girls{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.Clueless{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.Princess-diaries{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+div.Cinderella-story{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 black;
+}

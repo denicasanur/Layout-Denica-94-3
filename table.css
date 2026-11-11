@@ -1,0 +1,268 @@
+table, th, td{
+    border:1px solid black;
+    padding: 5px;
+}
+
+td.hover:hover{
+    background-color: #00c3ff;
+    color: white;
+} 
+
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+th{
+    height: 50px;
+}
+
+th.warna{
+    background-color: #72267b;
+    color: white;
+}
+
+td{
+    text-align: center;
+}
+
+th.warni:hover{
+    background-color: #00c3ff;
+    color: #ffffff;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #fff8ef;
+    font-family: 'Comfortaa', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: #554c46;
+    border-bottom: 1px solid #eadfd3;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+   background-color: white;
+   border-bottom: 1px solid #eadfd3;
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.topnav a {
+    display: block;
+   color: #554c46;
+   font-family: 'Comfortaa', sans-serif;
+   font-size: 14px;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   border-bottom: 3px solid transparent;
+   transition: 0.2s ease;
+}
+
+.topnav a:hover {
+   background-color: #f3edf6;
+   color: #765b84;
+   border-bottom-color: #a78ab4;
+}
+
+th.warna:hover{
+   background-color: #84519d;
+   color: #ffffff;
+}
+
+.footer {
+    background-color: #fffaf4;
+    padding: 16px;
+    margin-top: 24px;
+    text-align: center;
+    color: #554c46;
+    border-top: 1px solid #eadfd3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Pink Alessa theme */
+body {
+    background: #fff5f7;
+}
+
+.header {
+    background: #a9d6ee;
+    color: #9b5470;
+    border-bottom: 3px solid #ffe39a;
+    box-shadow: 0 4px 12px rgba(190, 86, 116, 0.18);
+}
+
+.topnav {
+    background: #ffe9a8;
+    border-bottom: 3px solid #f6adc1;
+    justify-content: center;
+}
+
+.topnav a {
+    color: #a75d78;
+    font-weight: bold;
+}
+
+.topnav a:hover,
+.topnav a.active {
+    background: #f6adc1;
+    color: #fff8cf;
+    border-bottom-color: #a9d6ee;
+}
+
+body > h2 {
+    text-align: center;
+    color: #b95c70;
+    background: #ffb6c1;
+    padding: 14px;
+    margin: 24px 12px 16px;
+    border-radius: 8px;
+}
+
+table {
+    width: calc(100% - 32px);
+    max-width: 1100px;
+    margin: 0 auto 24px;
+    background: #fff8fa;
+    border: 3px solid #ff94a6;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(180, 82, 106, 0.18);
+}
+
+table, th, td {
+    border: 1px solid #ffb6c1;
+}
+
+th {
+    height: 50px;
+    background: #ff94a6;
+    color: #ffffff;
+}
+
+td {
+    background: #fffafb;
+    color: #8f5060;
+}
+
+td.hover:hover {
+    background: #ffb6c1;
+    color: #ffffff;
+}
+
+th.warna,
+th.warni {
+    background: #d96f86;
+    color: #ffffff;
+}
+
+th.warna:hover,
+th.warni:hover {
+    background: #ff8095;
+    color: #ffffff;
+}
+
+.footer {
+    background: #ff94a6;
+    margin-top: 24px;
+    border-top: 2px solid #ff8095;
+    color: #ffffff;
+}
+
+.footer p {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Pink and yellow table content */
+body {
+    background: #fff9e9;
+}
+
+body > h2 {
+    max-width: 1100px;
+    margin: 24px auto 16px;
+    padding: 14px;
+    border-radius: 12px;
+    background: #ffe9a8;
+    border: 2px solid #f6adc1;
+    color: #713047;
+    box-shadow: 0 8px 20px rgba(180, 82, 106, 0.12);
+}
+
+table {
+    width: calc(100% - 32px);
+    max-width: 1100px;
+    border: 3px solid #a9d6ee;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fffdf2;
+    box-shadow: 0 12px 30px rgba(180, 82, 106, 0.18);
+}
+
+table, th, td {
+    border: 1px solid #b9dff2;
+}
+
+th {
+    background: #a9d6ee;
+    color: #713047;
+}
+
+td {
+    background: #fffaf0;
+    color: #713047;
+}
+
+tr:nth-child(even) td.hover {
+    background: #fff4bd;
+}
+
+td.hover:hover,
+th.warna:hover,
+th.warni:hover {
+    background: #ffe39a;
+    color: #713047;
+}
+
+th.warna {
+    background: #f6adc1;
+    color: #713047;
+}
+
+th.warni {
+    background: #ffe39a;
+    color: #713047;
+}

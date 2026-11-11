@@ -1,0 +1,194 @@
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    background-image: url("yes.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #172554;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #3b82f6;
+}
+
+/* Main */
+main {
+    padding: 40px 0;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #2563eb;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+section h3 {
+    color: #4f46e5;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #dbeafe, #ede9fe);
+    text-align: center;
+}
+
+.hero h2 {
+    border-left: none;
+    padding-left: 0;
+    color: #1e40af;
+}
+
+.hero p {
+    text-align: center;
+}
+
+/* Foto */
+.photo-section {
+    text-align: center;
+    padding: 25px;
+}
+
+.photo-section img {
+    width: 100%;
+    max-width: 700px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Kesimpulan */
+.conclusion {
+    background: linear-gradient(135deg, #eff6ff, #f5f3ff);
+    border-top: 5px solid #2563eb;
+}
+
+/* Footer */
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Tampilan HP */
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        padding: 25px 20px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    .photo-section img {
+        height: 250px;
+    }
+}
